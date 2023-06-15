@@ -1,0 +1,15 @@
+<%- include("layout/header") %>
+<main>
+    <form action="/login" method="post">
+        <div>
+            <label for="username">UserName: </label>
+            <input type="text" name="username" id="" placeholder="Enter your username..." required>
+        </div><br>
+        <div>
+            <label for="password">password: </label>
+            <input type="password" name="password" id="" placeholder="Enter your password..." required>
+        </div><br>
+        <input type="submit" value="login">
+    </form>
+</main>
+<%- include("layout/footer") %>
